@@ -25,6 +25,12 @@ export const Formulario = () => {
         existencia: 0,
         ISBN: '',
         num_pag: 0,
+        descripcion_larga: '',
+        status: '',
+        categoria: '',
+        anio: 0,
+        languaje: '',
+        thumbnailUrl: '',
         autorId: 3
     });
 
@@ -50,6 +56,12 @@ export const Formulario = () => {
             existencia: 0,
             ISBN: '',
             num_pag: 0,
+            descripcion_larga: '',
+            status: '',
+            categoria: '',
+            anio: 0,
+            languaje: '',
+            thumbnailUrl: '',
             autorId: 3
         });
     };
@@ -125,37 +137,37 @@ export const Formulario = () => {
                                 name="num_pag"
                                 id="num_pag"
                                 onChange={handleOnChange}
-                                value={book.num_pag}></input>
+                                value={book.descripcion_larga}></input>
                             <h3>Status:</h3>
                             <input type="text"
                                 name="num_pag"
                                 id="num_pag"
                                 onChange={handleOnChange}
-                                value={book.num_pag}></input>
+                                value={book.status}></input>
                             <h3>Categoria:</h3>
                             <input type="text"
                                 name="num_pag"
                                 id="num_pag"
                                 onChange={handleOnChange}
-                                value={book.num_pag}></input>
+                                value={book.categoria}></input>
                             <h3>Año:</h3>
                             <input type="text"
                                 name="num_pag"
                                 id="num_pag"
                                 onChange={handleOnChange}
-                                value={book.num_pag}></input>
+                                value={book.anio}></input>
                             <h3>Lenguaje:</h3>
                             <input type="text"
                                 name="num_pag"
                                 id="num_pag"
                                 onChange={handleOnChange}
-                                value={book.num_pag}></input>
+                                value={book.languaje}></input>
                             <h3>URL:</h3>
                             <input type="text"
                                 name="num_pag"
                                 id="num_pag"
                                 onChange={handleOnChange}
-                                value={book.num_pag}></input>
+                                value={book.thumbnailUrl}></input>
                         </div>
                         /*     
                          carrito.length == 0 ? <h2 style={{
